@@ -2,14 +2,16 @@
   <content><![CDATA[
 //- @jadedoc
   name: ${1:myMixin}
-  description: ${2:description}
+  description: ${2:description}${3:
   arguments: 
-    - {type} name - description
+    - {type\} name - description}${4:
+  attributes: 
+    - {type\} name - description}
   examples:
     - +${1:myMixin}()
 
 mixin ${1:myMixin}()
-  $3
+  $5
 ]]></content>
   <tabTrigger>mixin</tabTrigger>
   <scope>text.jade</scope>
