@@ -6,7 +6,7 @@
   arguments: 
     - {type} name - description
   examples:
-    - +myMixin()
+    - +${1:myMixin}()
 
 mixin ${1:myMixin}()
   $3
