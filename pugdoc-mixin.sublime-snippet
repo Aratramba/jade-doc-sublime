@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-//- @jadedoc
+//- @pugdoc
   name: ${1:myMixin}
   description: ${2:description}${3:
   arguments: 
